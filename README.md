@@ -5,7 +5,7 @@
         <dependency>
             <groupId>com.cp</groupId>
             <artifactId>trace-client</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
+            <version>0.0.1</version>
         </dependency>
 ## 修改logback.xml
 控制台输出格式里添加%X{traceId}即可打印
